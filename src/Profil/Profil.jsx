@@ -37,7 +37,7 @@ const WelcomePage = () => {
             className="block1"
             initial={{ y: 0 }}
             animate={startView ? { x: "-100vh" } : {}}
-            transition={{ duration: 1, delay: 0 }}
+            transition={{ duration: 1, delay: 0.1 }}
           >
             1
           </motion.div>
