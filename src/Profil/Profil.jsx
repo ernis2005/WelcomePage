@@ -35,8 +35,8 @@ const WelcomePage = () => {
         {!hiddenBlock1 && (
           <motion.div
             className="block1"
-            initial={{ x: 0 }}
-            animate={startView ? { x: "100vh" } : {}}
+            initial={{ y: 0 }}
+            animate={startView ? { x: "-100vh" } : {}}
             transition={{ duration: 1, delay: 0 }}
           >
             1
